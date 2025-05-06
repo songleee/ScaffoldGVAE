@@ -1,6 +1,6 @@
 # ScaffoldGVAE
 ScaffoldGVAE: A Variational Autoencoder Based on Multi-View Graph Neural Networks for Scaffold Generation and Scaffold Hopping of Drug Molecules
-![image](figure/网络架构图.jpg)
+![image](figure/architecture.jpg)
 # Installation
 You can use the environment.yml file to create a new conda environment with all the necessary dependencies for ScaffoldGVAE.
 ```
@@ -9,6 +9,8 @@ cd ScaffoldGVAE
 conda env create -f environment.yml
 conda activate ScaffoldGVAE
 ```
+Additional data files could be downloaded from [Google Drive]{https://drive.google.com/drive/folders/1tV307SNEkBokOTQLrDh0IqLXbFc5Oliq?usp=sharing}
+
 # Usage
 ScaffoldGVAE includes three sub-modules:
 1. `Sca_extraction.py`: The molecular scaffolds was extracted and the data set was constructed.
@@ -29,3 +31,8 @@ python fine_tuning.py
 
 python sample.py
 ```
+
+# Citation
+If you find this work useful, please cite us:
+Hu, C., Li, S., Yang, C. et al. ScaffoldGVAE: scaffold generation and hopping of drug molecules via a variational autoencoder based on multi-view graph neural networks. J Cheminform 15, 91 (2023). https://doi.org/10.1186/s13321-023-00766-0
+
