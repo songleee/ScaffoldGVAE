@@ -34,6 +34,9 @@ python fine_tuning.py
 python sample.py
 ```
 
+# License
+This project is licensed under the terms of the [CC-BY-NC-ND-4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode) license.
+
 # Citation
 If you find this work useful, please cite us:
 
